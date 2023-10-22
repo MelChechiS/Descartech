@@ -1,0 +1,19 @@
+// Anotações importantes do Trabalho de Conclusão de Curso:
+
+--> Dependências para instalar no projeto:
+
+- NPM I (node modules);
+- NPM I SASS (scss);
+- NPM I REACT-ROUTER-DOM (sistema de rotas);
+
+// Necessário inserir:
+
+- Página de Doações;
+- Restante do Formulário;
+- Perfil do usuário (opcional);
+
+// Necessário Fazer:
+
+- Estilizar todo o projeto;
+- Testar a API no projeto;
+- Fazer o Formulário funcionar;
