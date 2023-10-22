@@ -59,7 +59,7 @@ export default function Login() {
                   </div>
                 </Link>
 
-                <Link to={"/"}>
+                <Link to={"/home"}>
                 <div className={styles.continueButton}>
                   <button className={styles.continueButton__btn}>
                     ENTRAR
