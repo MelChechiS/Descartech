@@ -11,13 +11,13 @@ export default function Cadastro() {
       <div className={styles.back}>
         <div className={styles.container}>
           <div className={styles.formImage}>
-    
+
           </div>
 
           <div className={styles.form}>
             <form action="#">
               <div className={styles.formHeader}>
-              
+
                 <div className={styles.loginButton}>
 
                   <Link to={"/login"}>
@@ -30,7 +30,7 @@ export default function Cadastro() {
 
               <div className={styles.avatarSpace}>
 
-              <div className={styles.title}>
+                <div className={styles.title}>
                   <h1 className={styles.h1}>BEM-VINDO!</h1>
                 </div>
                 <div className={styles.avatarBox}>
@@ -132,9 +132,12 @@ export default function Cadastro() {
                   ></input>
                 </div>
               </div>
-              <div className={styles.continueButton}>
-                <button className={styles.continueButton__btn}>CONTINUE</button>
-              </div>
+              <Link to={"/home"}>
+                <div className={styles.continueButton}>
+                  <button className={styles.continueButton__btn}>CONTINUE</button>
+                </div>
+              </Link>
+
             </form>
           </div>
         </div>
