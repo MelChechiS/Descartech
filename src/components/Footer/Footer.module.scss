@@ -1,0 +1,48 @@
+.back{
+    background-color: #2B2B1B;
+    display: flex;
+    box-sizing: border-box; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container{
+    margin-left: 2%;
+    margin-right: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0rem;
+
+}
+.cardTitle{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    &__title{
+        text-align: start;
+        display: flex;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+        color: #f6f8f5;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    }
+}
+.cardText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding-top: 2rem;
+    &__text{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #e4dede;
+    }
+}

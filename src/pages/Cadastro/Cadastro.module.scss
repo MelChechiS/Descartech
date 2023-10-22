@@ -1,0 +1,209 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    border-radius: 10px;
+}
+.formImage{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color:#619eff;
+    border-radius: 10px;
+    background-image: linear-gradient( to right, #00B0FC, transparent, #2d7bf6);
+}
+// azul mais escuro #338BEF
+// azul médio #00B0FC
+// azul claro #47C1E6
+.img{
+    width: 31rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.formHeader{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginButton{ 
+    display: flex;
+    align-items: center;
+    width: 20%;
+    
+
+    &__button{
+        border: none;
+        background-color: white;
+        padding: 0.4rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #2d7bf6;
+        color: #2d7bf6;
+        width: 100%;
+    }
+    &__button:hover {
+        background-color: #2d7bf6;
+        border-color: #2d7bf6;
+        color: white   ;
+    }      
+    &__text{
+        font-size: 13px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
+        font-weight: bold;
+    }
+
+}
+.h1{
+    font-size: xx-large;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+}
+.h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #2d7bf6;
+    margin: 2px auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.avatarSpace {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.avatarBox{
+    display: flex;
+    margin-bottom: 1.1rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+
+    &__input{
+        margin: 0.0rem 0;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px #0000001c;
+    }
+    &__input:hover{
+        background-color: rgb(236, 234, 234);
+    }
+    &__input:focus-visible{
+        outline: 1px solid #2d7bf6;
+    }
+    &__input::placeholder{
+        color: #000000be;
+    }
+
+
+    &__label{
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #000000c0;
+    }
+}
+.continueButton{
+
+    &__btn{
+        width: 100%;
+        margin-top: 2.5rem;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #2d7bf6;
+        background-color: #2d7bf6;
+        padding: 0.62rem;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        font-weight: 900;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    &__btn:hover{
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #2d7bf6;
+        color: #2d7bf6;
+    }
+}
+
+
+@media screen and (max-width: 1330px){
+    .formImage{
+        display: none;
+    }
+    .container{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+    .loginButton{
+        justify-content: center;
+        align-items: center;
+
+        &__button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__text{
+            font-size: 10px;    
+        }
+    }
+}
+@media screen and (max-width: 1064px) {
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .inputGroup{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    
+}

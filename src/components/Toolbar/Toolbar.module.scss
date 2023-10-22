@@ -1,0 +1,90 @@
+.toolbar{
+  background-color: #2B2B1B;
+  display: flex;
+  box-sizing: border-box;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.start{
+  width: 50%;
+  height: 80px;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+
+  h1{
+   color:azure;
+   font-size: 40px;
+   padding-left: 3%;
+
+  }
+
+  &__logo{
+    width: 80px;
+    height: 100%;
+    max-width: 80px;
+    min-width: 80px;
+    border-style: solid;
+    cursor: pointer;
+  }
+}
+
+.middle{
+  width: 50%;
+  height: 100%;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px 0px;
+
+}
+
+.end{
+  p{
+    color:azure;
+    font-size: 15px;
+  align-content: baseline;
+    height: 130%;                                                                                                                                                                                                                                                                                      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding-inline: 20%;
+  }
+
+  &__searchBox{
+    height: 100%;                                                                                                                                                                                                                                                                                      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-right: 30%;
+  }
+  &__searchButton{
+    padding-right: 5%;
+    border: none;
+    width: 40px;
+    height: 70%;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  &__searchButton svg{
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1330px){
+  .start{
+    margin-left: 10px;
+  }
+  .end{
+    margin-right: 10px;
+    &__searchBox{
+      gap: 10px;
+    }
+  }
+}

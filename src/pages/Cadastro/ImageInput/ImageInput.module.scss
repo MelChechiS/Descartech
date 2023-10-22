@@ -1,0 +1,67 @@
+.imageInput{
+    display: none;
+}
+.box{
+    background-color: rgb(236, 234, 234);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.imageNotActive{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(236, 234, 234);
+    border-width: 1px;
+    box-shadow: 1px 1px 6px rgb(236, 234, 234);
+}
+.imageNotActive:hover{
+    border-color: #2d7bf6;
+}
+.imageActive{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-style: solid;
+    border-color: rgb(236, 234, 234);
+    border-radius: 50%;
+    border-width: 1px;
+    box-shadow: 1px 1px 10px rgb(236, 234, 234);
+}
+.imageBox{
+    cursor: pointer;
+}
+
+
+
+.button{
+    background-color: #2d7bf6;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(236, 234, 234);
+    border-width: 1px;
+    box-shadow: 1px 1px 10px rgb(236, 234, 234);
+    border-radius: 50%;
+}
+.button svg {
+    color: white;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #2d7af671;
+}
