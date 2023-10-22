@@ -10,7 +10,7 @@ import "./index.css";
 import Inicial from "./pages/Inicial";
 import Home from "./pages/Home";
 import Cadastro from "./pages/Cadastro";
-import Animais from "./pages/Animais";
+import Formulario from "./pages/Formulario";
 import Login from "./pages/Login";
 
 // Configurando as Rotas entre as Páginas (Router):
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: "animais",
-    element: <Animais/>
+    path: "formulario",
+    element: <Formulario/>
   },
 
 ]);

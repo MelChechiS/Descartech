@@ -1,8 +1,6 @@
 import styles from "./Toolbar.module.scss";
 import logo from "../../assets/logo.png";
-import { BiSearch } from "react-icons/bi";
 import { GoPerson } from "react-icons/go";
-import { PiDogLight } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
 export default function Toolbar() {
@@ -27,7 +25,7 @@ export default function Toolbar() {
             </button>
           </Link>
           <br></br>
-        <Link to={"/animais"} >
+        <Link to={"/formulario"} >
             <button className={styles.end__searchButton}>
               <p>Descartar </p> 
             </button>
