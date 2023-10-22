@@ -65,13 +65,13 @@
         cursor: pointer;
         border-style: solid;
         border-width: 2px;
-        border-color: #2d7bf6;
-        color: #2d7bf6;
+        border-color: #319435;
+        color: #0d7135;
         width: 100%;
     }
     &__button:hover {
-        background-color: #2d7bf6;
-        border-color: #2d7bf6;
+        background-color: #1c884b;
+        border-color: #18b96e;
         color: white   ;
     }      
     &__text{
@@ -129,7 +129,7 @@
         background-color: rgb(236, 234, 234);
     }
     &__input:focus-visible{
-        outline: 1px solid #2d7bf6;
+        outline: 1px solid #308015;
     }
     &__input::placeholder{
         color: #000000be;
@@ -146,11 +146,10 @@
 
     &__btn{
         width: 100%;
-        margin-top: 2.5rem;
         border-style: solid;
         border-width: 2px;
-        border-color: #2d7bf6;
-        background-color: #2d7bf6;
+        border-color: #317147;
+        background-color: #3e6927;
         padding: 0.62rem;
         border-radius: 5px;
         cursor: pointer;
@@ -163,8 +162,8 @@
         background-color: white;
         border-style: solid;
         border-width: 2px;
-        border-color: #2d7bf6;
-        color: #2d7bf6;
+        border-color: #38886a;
+        color: #428f5d;
     }
 }
 
