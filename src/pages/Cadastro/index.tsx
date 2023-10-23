@@ -1,6 +1,7 @@
 import styles from "./Cadastro.module.scss";
 import ImageInput from "./ImageInput/imageinput";
 import Toolbar from "../../components/Toolbar";
+import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
 export default function Cadastro() {
@@ -11,15 +12,17 @@ export default function Cadastro() {
       <div className={styles.back}>
         <div className={styles.container}>
           <div className={styles.formImage}>
-
+            <img src={logo} alt="logo descartech"></img>
           </div>
 
           <div className={styles.form}>
             <form action="#">
               <div className={styles.formHeader}>
+                <div className={styles.title}>
+                  <h1 className={styles.h1}>BEM-VINDO!</h1>
+                </div>
 
                 <div className={styles.loginButton}>
-
                   <Link to={"/login"}>
                     <button className={styles.loginButton__button}>
                       <p className={styles.loginButton__text}>ENTRAR</p>
@@ -29,10 +32,6 @@ export default function Cadastro() {
               </div>
 
               <div className={styles.avatarSpace}>
-
-                <div className={styles.title}>
-                  <h1 className={styles.h1}>BEM-VINDO!</h1>
-                </div>
                 <div className={styles.avatarBox}>
                   <ImageInput />
                 </div>
@@ -55,15 +54,15 @@ export default function Cadastro() {
                 </div>
 
                 <div className={styles.inputBox}>
-                  <label htmlFor="cpf" className={styles.inputBox__label}>
+                  <label htmlFor="sobrenome" className={styles.inputBox__label}>
                     {" "}
-                    Cpf{" "}
+                    Sobrenome{" "}
                   </label>
                   <input
-                    id="cpf"
+                    id="sobrenome"
                     type="text"
-                    name="cpf"
-                    placeholder="Digite seu cpf"
+                    name="sobrenome"
+                    placeholder="Digite seu Sobrenome"
                     required
                     className={styles.inputBox__input}
                   ></input>
@@ -134,10 +133,11 @@ export default function Cadastro() {
               </div>
               <Link to={"/home"}>
                 <div className={styles.continueButton}>
-                  <button className={styles.continueButton__btn}>CONTINUE</button>
+                  <button className={styles.continueButton__btn}>
+                    CONTINUE
+                  </button>
                 </div>
               </Link>
-
             </form>
           </div>
         </div>
