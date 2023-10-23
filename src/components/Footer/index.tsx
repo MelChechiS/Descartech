@@ -1,7 +1,4 @@
 import styles from "./Footer.module.scss";
-import logo from "../../assets/logo.png";
-import { BiCommentError, BiCode } from "react-icons/bi";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
