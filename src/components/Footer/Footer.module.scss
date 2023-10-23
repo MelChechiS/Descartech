@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 .back{
     background-color: #2B2B1B;
     display: flex;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -18,8 +20,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 2rem 0rem;
-
 }
 .cardTitle{
     display: flex;
@@ -28,21 +28,22 @@
     &__title{
         text-align: start;
         display: flex;
-        font-size: 40px;
-        font-weight: 900;
-        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Libre Baskerville', serif;
         color: #f6f8f5;
         text-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     }
 }
 .cardText{
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: start;
-    padding-top: 2rem;
+    padding-top: 1rem;
     &__text{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:'Libre Baskerville', serif;
         color: #e4dede;
     }
 }
