@@ -12,6 +12,9 @@ export default function Animais() {
       <div className={styles.dispBox}>
         <h1 className={styles.dispBox__text}> Formulário para o Descarte: </h1>
       </div>
+      <br></br>
+      <br></br>
+
 
       <div className={styles.inputGroup}>
                 <div className={styles.inputBox}>
@@ -47,7 +50,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="cpf" className={styles.inputBox__label}>
                     {" "}
-                    Cpf{" "}
+                    CPF{" "}
                   </label>
                   <input
                     id="cpf"
@@ -164,12 +167,19 @@ export default function Animais() {
                   ></input>
                 </div>
 
-                
+
                 <div>
                   </div></div>
               <div>
-        
-    
+
+                <div className={styles.Button}>
+                  <h1 className={styles.H1}>O que você deseja?</h1>
+                  <button className={styles.Button__botao}>Descartar</button>
+                  <button className={styles.Button__botao}>Doar</button>
+
+                </div>
+
+
       </div>
 
         <Footer/>
