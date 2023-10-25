@@ -10,8 +10,10 @@ import "./index.css";
 import Inicial from "./pages/Inicial";
 import Home from "./pages/Home";
 import Cadastro from "./pages/Cadastro";
-import Formulario from "./pages/Formulario";
 import Login from "./pages/Login";
+import Formulario from "./pages/Formulario";
+import Doacoes from "./pages/Doacoes";
+
 
 // Configurando as Rotas entre as Páginas (Router):
 
@@ -36,7 +38,10 @@ const router = createBrowserRouter([
     path: "formulario",
     element: <Formulario/>
   },
-
+  {
+    path: "doacoes",
+    element: <Doacoes/>
+  },
 ]);
 
 // Abrindo "porta" de acesso para o Projeto:

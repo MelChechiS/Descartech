@@ -31,7 +31,7 @@ export default function Toolbar() {
             </button>
           </Link>
           <br></br>
-        <Link to={"/home"} >
+        <Link to={"/doacoes"} >
             <button className={styles.end__searchButton}>
               <p className={styles.p}>Doações</p>
             </button>
