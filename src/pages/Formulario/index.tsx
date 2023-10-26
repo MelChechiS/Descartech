@@ -173,7 +173,7 @@ export default function Animais() {
               <div>
 
                 <div className={styles.Button}>
-                  <h1 className={styles.H1}>O que você deseja?</h1>
+                  <h1 className={styles.Button__H1}>O que você deseja?</h1>
                   <button className={styles.Button__botao}>Descartar</button>
                   <button className={styles.Button__botao}>Doar</button>
 
