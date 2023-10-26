@@ -20,7 +20,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="nome" className={styles.inputBox__label}>
                     {" "}
-                    Nome{" "}
+                    Nome:{" "}
                   </label>
                   <input
                     id="nome"
@@ -35,7 +35,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="sobrenome" className={styles.inputBox__label}>
                     {" "}
-                    Sobrenome{" "}
+                    Sobrenome:{" "}
                   </label>
                   <input
                     id="sobrenome"
@@ -50,7 +50,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="cpf" className={styles.inputBox__label}>
                     {" "}
-                    CPF{" "}
+                    CPF:{" "}
                   </label>
                   <input
                     id="cpf"
@@ -65,7 +65,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="email" className={styles.inputBox__label}>
                     {""}
-                    Email{""}
+                    Email:{""}
                   </label>
                   <input
                     id="email"
@@ -80,7 +80,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="number" className={styles.inputBox__label}>
                     {" "}
-                    Telefone{" "}
+                    Telefone:{" "}
                   </label>
                   <input
                     id="number"
@@ -95,7 +95,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="city" className={styles.inputBox__label}>
                     {" "}
-                    Cidade{" "}
+                    Cidade:{" "}
                   </label>
                   <input
                     id="city"
@@ -110,7 +110,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="endereço" className={styles.inputBox__label}>
                     {" "}
-                    Endereço{" "}
+                    Endereço:{" "}
                   </label>
                   <input
                     id="endereço"
@@ -125,7 +125,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="bairro" className={styles.inputBox__label}>
                     {" "}
-                    Bairro{" "}
+                    Bairro:{" "}
                   </label>
                   <input
                     id="bairro"
@@ -140,7 +140,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="number" className={styles.inputBox__label}>
                     {" "}
-                    N:{" "}
+                    Nº:{" "}
                   </label>
                   <input
                     id="number"
@@ -155,7 +155,7 @@ export default function Animais() {
                 <div className={styles.inputBox}>
                   <label htmlFor="Estado" className={styles.inputBox__label}>
                     {" "}
-                    Estado{" "}
+                    Estado:{" "}
                   </label>
                   <input
                     id="estado"
