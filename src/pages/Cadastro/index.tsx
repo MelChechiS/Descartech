@@ -1,7 +1,7 @@
 import styles from "./Cadastro.module.scss";
 import ImageInput from "./ImageInput/imageinput";
 import Toolbar from "../../components/Toolbar";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/components_img/logo.png";
 import { Link } from "react-router-dom";
 
 export default function Cadastro() {

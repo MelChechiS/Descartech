@@ -1,5 +1,5 @@
 import styles from "./Toolbar.module.scss";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/components_img/logo.png";
 import { GoPerson } from "react-icons/go";
 import { Link } from "react-router-dom";
 
@@ -21,13 +21,13 @@ export default function Toolbar() {
 
         <Link to={"/home"} >
             <button className={styles.end__searchButton}>
-              <p>Home</p> 
+              <p>Home</p>
             </button>
           </Link>
           <br></br>
         <Link to={"/formulario"} >
             <button className={styles.end__searchButton}>
-              <p>Descartar </p> 
+              <p>Descartar </p>
             </button>
           </Link>
           <br></br>
@@ -42,7 +42,7 @@ export default function Toolbar() {
               <GoPerson size={"35px"} />
             </button>
           </Link>
-       
+
         </div>
       </div>
     </header>

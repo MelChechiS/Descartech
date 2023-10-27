@@ -7,31 +7,49 @@
 
   &__text {
     position: static;
+    margin-top: 200px;
     font-weight: bold;
     font-style: normal;
-    font-size: 80px;
+    font-size: 65px;
     font-family: 'Libre Baskerville', serif;
     padding-top: 80px;
-    padding-left: 60px;
+    padding-left: 120px;
+    display: flex;
     color: #264A2C;
   }
-  &__image {
-    align-content: flex-end;
-  }
+
+   &__ellipse {
+     flex-direction: row;
+     align-content: flex-end;
+     margin-left: 50%;
+     margin-top: 10px;
+     padding: 10px 20px;
+     width: 50%;
+     height: 500px;
+   }
 }
 
 
-.button {
-    border: 0;
+.green_button {
+  background-color: #5B816E;
+  color:aliceblue;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 250px;
+  margin-left: 60px;
     font-size: 25px;
     font-family: 'Libre Baskerville', serif;
-    background-color: #5B816E;
-    color:aliceblue;
     width: 240px;
     height: 55px;
+    flex-direction: row;
     align-items: center;
     margin: 10px;
-    margin-top: 300px;
-    margin-left: 60px;
+    margin-top: 250px;
+    margin-left: 120px;
     cursor: pointer;
 }
+
+
+

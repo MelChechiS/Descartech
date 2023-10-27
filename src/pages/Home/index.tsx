@@ -2,7 +2,7 @@
 
 import Toolbar from "../../components/Toolbar";
 import styles from "./Home.module.scss";
-import Banner from "../../assets/banner.png";
+import Banner from "../../assets/eletrônicos/banner.png";
 import Footer from "../../components/Footer";
 
 // Criação da Função "Home":
