@@ -37,7 +37,7 @@ export default function Toolbar() {
             </button>
           </Link>
           <br></br>
-          <Link to={"/cadastro"}>
+          <Link to={"/sobre"}>
             <button className={styles.end__searchButton}>
               <GoPerson size={"35px"} />
             </button>
