@@ -1,7 +1,7 @@
 import styles from "./Cadastro.module.scss";
 import ImageInput from "./ImageInput/imageinput";
 import Toolbar from "../../components/Toolbar";
-import logo from "../../assets/components_img/logo.png";
+import logo2 from "../../assets/components_img/logo2.png";
 import { Link } from "react-router-dom";
 
 export default function Cadastro() {
@@ -12,7 +12,7 @@ export default function Cadastro() {
       <div className={styles.back}>
         <div className={styles.container}>
           <div className={styles.formImage}>
-            <img src={logo} alt="logo descartech"></img>
+            <img src={logo2} alt="logo descartech"></img>
           </div>
 
           <div className={styles.form}>
