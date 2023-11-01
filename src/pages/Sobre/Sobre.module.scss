@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-.sobre{
+.projeto {
+  background: none;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 15px;
+
+  &__h1 {
+    padding-top: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &__p {
+    color: #000000;
+    font-family: Libre Baskerville;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 114.286% */
+    letter-spacing: 1.4px;
+  }
+}
+
+.desenvolvedores{
   background: none;
   height: 100%;
   margin-left: 10%;
@@ -15,16 +44,33 @@
   &__h1{
     padding-top: 30px;
     font-family: 'Libre Baskerville', serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
   }
+}
+
+.sobre{
+  background: none;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 15px;
+
   &__h3{
     padding-top: 30px;
     font-family: 'Libre Baskerville', serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 600;
     font-display: swap;
-
+  }
+  &__img {
+    width: 300px;
+    height: 500px;
   }
 }
